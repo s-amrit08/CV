@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>My Contact Details</h3>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/amrit-saran-24360a18b/">Linkedin</a>
+      </li>
+      <li>
+        <a href="https://www.leetcode.com/amritsaran95/">Leetcode</a>
+      </li>
+    </ul>
+
+    <hr />
+    <h3>Have a query?</h3>
+
+    <form
+      action="mailto:amritsaran95@gmail.com"
+      method="post"
+      enctype="text/plain"
+      name=""
+    >
+      <!-- action takes up the url where the form data will be stored-->
+      <!--method attribute stores the http method to submit hte form
+        method is post because the form data is sent as request body.
+      see doc for other two method values-->
+      <!--when the method attribute is set to post, enctype is the type of form submission.
+        We need encoding to text/plain-->
+      <label for="">Your Name: </label>
+      <input type="text" name="yourName" />
+      <!--name attribute stores the name of the element
+        name is given to inputs because, when we submit the form the data gets submitted as part of name/value pair-->
+      <br />
+      <br />
+      <label for="">Your Email: </label>
+      <input type="email" name="yourEmail" />
+      <br />
+      <br />
+      <label for="">Your Message: </label>
+      <br />
+      <textarea rows="5" cols="10" name="yourMessage "></textarea>
+      <br />
+      <input type="submit" name="" id="" />
+    </form>
+  </body>
+</html>
